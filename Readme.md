@@ -25,3 +25,13 @@ feed.bat [test data] [execuables] [output]
 - `test data`: test data file
 - `execuables`: directory of execuable files to be tested
 - `output`: directory of output results
+
+## check output
+
+```python
+output_judge.py [path to be checked] [answer path] [output file name]
+```
+
+- `path to be checked`: directory of output results
+- `answer path`: directory of the benchmark file
+- `output file name`: output file name
